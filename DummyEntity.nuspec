@@ -1,0 +1,19 @@
+﻿<?xml version="1.0"?>
+<package>
+  <metadata>
+		<id>DummyEntity</id>
+		<version>$version$</version>
+		
+		<title>DummyEntity</title>
+		<description>This project only contains the IEntity interface to avoid dependency issues.</description>
+		<projectUrl>https://github.com/carlosjln/DummyEntity</projectUrl>
+		
+		<authors>Carlos J. López</authors>
+		<requireLicenseAcceptance>false</requireLicenseAcceptance>
+		<copyright>Copyright © 2013</copyright>
+	</metadata>
+	<files>
+        <file src="bin\Release\DummyEntity.pdb" target="lib\net40" />
+		<file src="**\*.cs" target="src" exclude="**\AssemblyInfo.cs"/>
+	</files>
+</package>
